@@ -1,4 +1,4 @@
 # Lernfeld 5.2
-##OOM
+## OOM
 
-###UseCase-Diagramm
+### UseCase-Diagramm
