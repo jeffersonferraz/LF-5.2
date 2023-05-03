@@ -3,7 +3,7 @@
 ## UseCase-Diagramm
 <br><img src="/Diagramme/Use-Case-Diagramm.png"><br>
 
-Domänenwörterbuch
+## *Domänenwörterbuch*
 
 ### Angestellter:
 
@@ -12,23 +12,23 @@ Der Angestellte führt den Verwaltungsprozess seitens des Autoverleihs durch.
 Die folgenden Anwendungsfälle können durchgeführt werden.
 
 - **Auto verleihen** <br>
-Das Auto wird an Kunden ausgegeben, inkludiert den UseCase “Auto ausleihen” des Kunden.
+Das Auto wird an Kunden ausgegeben, inkludiert den UseCase “Auto ausleihen” des ***Kunden***.
 
 - **Übersicht ausgeben** <br>
-Das System gibt eine Übersicht der verfügbaren Autos aus. Die Übersicht wird für den UseCase “Auto ausleihen” des Kunden benötigt.
+Das System gibt eine Übersicht der verfügbaren Autos aus. Die Übersicht wird für den UseCase “Auto ausleihen” des ***Kunden*** benötigt.
 
 - **Auto entgegennehmen** <br>
-Das Auto wird nach dem Verleih entgegengenommen. Inkludiert den UseCase “Auto zurückgeben” des Kunden.
+Das Auto wird nach dem Verleih entgegengenommen. Inkludiert den UseCase “Auto zurückgeben” des ***Kunden***.
 
 ### Kunde:
 
 Der Kunde möchte bei der Autovermietung ein Auto ausleihen. Die folgenden Anwendungsfälle können dann durchgeführt werden.
 
 - **Auto ausleihen** <br>
-Der Kunde wählt ein Auto und leiht es aus. Dazu wird den UseCase “Übersicht ausgeben” des Angestellten genutzt.
+Der Kunde wählt ein Auto und leiht es aus. Dazu wird den UseCase “Übersicht ausgeben” des ***Angestellten*** genutzt.
 
 - **Auto zurückgeben** <br>
-Der Kunde gibt das Auto zurück. Der UseCase “Auto entgegennehmen” des Angestellten wird dabei auch ausgeführt.
+Der Kunde gibt das Auto zurück. Der UseCase “Auto entgegennehmen” des ***Angestellten*** wird dabei auch ausgeführt.
 
 - **Auto vorbestellen** <br>
 Der Kunde bestellt ein Auto zur Ausleihe vor. Dieser UseCase kann vor dem UseCase “Auto ausleihen” ausgeführt werden.
